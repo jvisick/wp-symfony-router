@@ -1,0 +1,20 @@
+{
+    "name": "jv/wp-symfony-router",
+    "description": "Core functionality for CCPDT website",
+    "authors": [
+        {
+            "name": "Josh Visick",
+            "email": "josh@visickdesign.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "wpSymfonyRouter\\": "lib"
+      }
+    },
+    "require": {
+        "symfony/http-foundation": "^2.7",
+        "symfony/routing": "^2.7",
+        "symfony/http-kernel": "^2.7"
+    }
+}

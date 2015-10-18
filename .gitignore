@@ -1,0 +1,4 @@
+# don't commit dependencies
+vendor/
+# phpstorm files
+.idea
