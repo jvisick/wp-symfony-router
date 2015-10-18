@@ -1,8 +1,10 @@
-=== WP-Symfony Router ===
+# === WP-Symfony Router ===
 
 This is an approach to using a symfony based router within a WordPress installation
 
-Based on: http://symfony.com/doc/current/create_framework/index.html
+
+## Usage
+Based on: [http://symfony.com/doc/current/create_framework/index.html]
 
 It uses composer to bring in some dependencies:
 
@@ -11,7 +13,7 @@ It uses composer to bring in some dependencies:
 - symfony/routing
 - symfony/http-kernel
 
-run 'composer intstall' from the plugin dir in the terminal to load up dependencies.
+Run `composer intstall` from the plugin dir in the terminal to load up dependencies.
 
 The core of the framework is in front.php
 
@@ -23,7 +25,7 @@ Template files are added to lib/templates.
 
 Controllers and model classes can be added to the respective folders in the lib directory.
 
---
+## Sample Routes
 There are 3 sample routes added:
 
 - sample controller with end of url as a parameter:
